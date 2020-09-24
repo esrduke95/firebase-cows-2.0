@@ -6,7 +6,6 @@ const cowsView = () => {
     response.forEach((item) => {
       $('#app').append(card.cowMaker(item));
     });
-    console.warn(response);
   });
 };
 
